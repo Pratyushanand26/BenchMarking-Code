@@ -1,0 +1,8 @@
+# Pinned for Raspberry Pi OS 64-bit (aarch64), Python 3.9-3.12.
+# mediapipe 0.10.14 is the newest release that (a) ships aarch64 wheels and
+# (b) still has the legacy `mp.solutions.pose` API this pipeline uses.
+numpy>=1.26,<2
+torch>=2.2,<2.7
+mediapipe==0.10.14
+pandas>=2.0
+psutil>=5.9

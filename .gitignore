@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+results/*
+!results/.gitkeep
+videos/*
+!videos/.gitkeep
+weights/*
+!weights/.gitkeep
